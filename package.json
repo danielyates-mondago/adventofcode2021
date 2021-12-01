@@ -1,0 +1,19 @@
+{
+    "name": "adventofcode2021",
+    "version": "1.0.0",
+    "description": "",
+    "type": "module",
+    "scripts": {
+        "day-one": "node ./day-one/part-one.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/danielyates-mondago/adventofcode2021.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/danielyates-mondago/adventofcode2021/issues"
+    },
+    "homepage": "https://github.com/danielyates-mondago/adventofcode2021#readme"
+}

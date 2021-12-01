@@ -4,7 +4,8 @@
     "description": "",
     "type": "module",
     "scripts": {
-        "day-one": "node ./day-one/part-one.js"
+        "1-1": "node ./day-one/part-one.js",
+        "1-2": "node ./day-one/part-two.js"
     },
     "repository": {
         "type": "git",

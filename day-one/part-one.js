@@ -3,6 +3,7 @@ import fs from 'fs'
 const depthMeasurements = fs
     .readFileSync('./day-one/input.txt')
     .toString()
+    .trim()
     .split('\n')
     .map(Number)
 

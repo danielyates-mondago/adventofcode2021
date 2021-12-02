@@ -5,7 +5,8 @@
     "type": "module",
     "scripts": {
         "1-1": "node ./day-one/part-one.js",
-        "1-2": "node ./day-one/part-two.js"
+        "1-2": "node ./day-one/part-two.js",
+        "2-1": "node ./day-two/part-one.js"
     },
     "repository": {
         "type": "git",

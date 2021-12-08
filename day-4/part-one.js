@@ -109,6 +109,10 @@ const getWinningScore = (numbers, boards) => {
         }
     }
 
+    if (winner === null) {
+        throw new Error('nobody wins')
+    }
+
     return winner.score
 }
 

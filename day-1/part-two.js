@@ -1,7 +1,7 @@
 import fs from 'fs'
 
 const depthMeasurements = fs
-    .readFileSync('./day-one/input.txt')
+    .readFileSync('./day-1/input.txt')
     .toString()
     .trim()
     .split('\n')

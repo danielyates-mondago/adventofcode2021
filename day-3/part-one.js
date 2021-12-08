@@ -1,7 +1,7 @@
 import fs from 'fs'
 
 const diagnosticReportInput = fs
-    .readFileSync('./day-three/input.txt')
+    .readFileSync('./day-3/input.txt')
     .toString()
     .trim()
     .split('\n')

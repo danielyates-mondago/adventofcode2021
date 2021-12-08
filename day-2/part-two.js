@@ -1,7 +1,7 @@
 import fs from 'fs'
 
 const pilotCommandsInput = fs
-    .readFileSync('./day-two/input.txt')
+    .readFileSync('./day-2/input.txt')
     .toString()
     .trim()
     .split('\n')

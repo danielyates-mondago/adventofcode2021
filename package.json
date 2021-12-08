@@ -9,7 +9,8 @@
         "2-1": "node ./day-2/part-one.js",
         "2-2": "node ./day-2/part-two.js",
         "3-1": "node ./day-3/part-one.js",
-        "3-2": "node ./day-3/part-two.js"
+        "3-2": "node ./day-3/part-two.js",
+        "4-1": "node ./day-4/part-one.js"
     },
     "repository": {
         "type": "git",

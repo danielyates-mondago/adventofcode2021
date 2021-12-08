@@ -96,7 +96,7 @@ const getWinningScore = (numbers, boards) => {
     const games = boards.map((board) => new BingoGame(board))
 
     for (const number of numbers) {
-        if (winner !== null) {
+        if (winner) {
             break
         }
 
@@ -109,7 +109,7 @@ const getWinningScore = (numbers, boards) => {
         }
     }
 
-    if (winner === null) {
+    if (!winner) {
         throw new Error('nobody wins')
     }
 
